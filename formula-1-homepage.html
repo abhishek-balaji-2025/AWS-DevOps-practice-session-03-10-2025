@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formula 1 Neon Showcase</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: rgba(128, 0, 128, 0.8);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 0 20px #9400D3;
+    }
+
+    header h1 {
+      color: #00ffff;
+      font-size: 3.2em;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #8000ff;
+      margin: 0;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .car-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .car-card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .car-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+    }
+
+    .car-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .car-card h2 {
+      font-size: 1.4em;
+      color: #7df9ff;
+      text-shadow: 0 0 5px #00ffff;
+    }
+
+    .car-card p {
+      font-size: 0.95em;
+      color: #ddddff;
+    }
+
+    footer {
+      background-color: rgba(128, 0, 128, 0.8);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ffffff;
+      text-shadow: 0 0 5px #ff00ff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Formula 1 Neon Showcase</h1>
+  </header>
+
+  <section>
+    <div class="car-gallery">
+
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1618221195710-d529f9bfa7c3?auto=format&fit=crop&w=800&q=80" alt="F1 Car 1">
+        <h2>Mercedes-AMG W14</h2>
+        <p>Powered by precision and engineering excellence, the W14 continues the silver arrow legacy with neon style.</p>
+      </div>
+
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1616259674185-87da257f38b4?auto=format&fit=crop&w=800&q=80" alt="F1 Car 2">
+        <h2>Ferrari SF-23</h2>
+        <p>The prancing horse wrapped in vibrant red and lightning-fast reflexes. Designed to win hearts and races.</p>
+      </div>
+
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1636966144683-c5bda79b2e65?auto=format&fit=crop&w=800&q=80" alt="F1 Car 3">
+        <h2>Red Bull RB19</h2>
+        <p>Performance, aggression, and aerodynamic wizardry. Dominating the circuits under neon glory.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    ⚡ Made for Formula 1 lovers • Neon Edition 2025 ⚡
+  </footer>
+
+</body>
+</html>
