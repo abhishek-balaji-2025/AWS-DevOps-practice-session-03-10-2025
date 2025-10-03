@@ -12,7 +12,7 @@ pipeline {
 
         stage ("Execute shell script") {
             steps {
-                sh 'bash install-nginx.bash'
+                sh 'sh install-nginx.bash'
             }
         }
     }

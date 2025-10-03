@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update the system
-sudo apt update -y && sudo apt upgrade -y
+sudo apt-get update -y && sudo apt-get upgrade -y
 
 # Install nginx
-sudo apt install nginx -y
+sudo apt-get install nginx -y
 
 # verify version
-nginx --version
+# nginx --version
 
