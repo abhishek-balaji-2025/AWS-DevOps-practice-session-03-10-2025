@@ -13,8 +13,6 @@ pipeline {
         stage ("Execute shell script") {
             steps {
                 sh 'bash install-nginx.bash'
-                sh '''sudo systemctl start nginx.service
-                sudo systemctl enable nginx.service'''
             }
         }
     }
